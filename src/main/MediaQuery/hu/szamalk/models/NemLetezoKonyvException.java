@@ -1,5 +1,5 @@
 package hu.szamalk.models;
-
+//
 public class NemLetezoKonyvException extends Exception{
     public NemLetezoKonyvException() {
     }

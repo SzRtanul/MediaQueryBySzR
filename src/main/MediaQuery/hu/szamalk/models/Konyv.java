@@ -1,11 +1,11 @@
 package hu.szamalk.models;
-
+//
 import java.util.Objects;
 
 public class Konyv{
-    String cim;
-    String szerzo;
-    int kiadasiEv;
+    private String cim;
+    private String szerzo;
+    private int kiadasiEv;
 
     public Konyv(String cim, String szerzo, int kiadasiEv) throws NemLetezoKonyvException {
         this.cim = cim;
